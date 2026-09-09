@@ -71,10 +71,8 @@
 
 
 <div align="center">
-<img src="https://streak-stats.demolab.com?user=YOUR-GITHUB-USERNAME&theme=dark&background=000000&stroke=39FF14&ring=39FF14&fire=00FF88&currStreakLabel=39FF14&border=1a3a1a" width="60%"/>
+<img src="https://streak-stats.demolab.com?user=codaswin&theme=dark&background=000000&stroke=39FF14&ring=39FF14&fire=00FF88&currStreakLabel=39FF14&border=1a3a1a" width="60%"/>
 </div>
-
-> Swap `YOUR-GITHUB-USERNAME` (5 spots above) for your real GitHub handle or the cards will render empty.
 
 ---
 

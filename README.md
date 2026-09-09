@@ -29,7 +29,6 @@
 
 ---
 
-### `> cat about_me.txt`
 
 ```
 > Runs an AI automation agency shipping agentic systems + GaaS
@@ -50,7 +49,6 @@
 
 ---
 
-### `> ./boot_sequence.sh`
 
 <div align="center">
 <!-- Custom terminal boot animation. Lives at assets/terminal-glitch.svg in this repo. -->
@@ -59,7 +57,6 @@
 
 ---
 
-### `> ls current_focus/`
 
 <div align="center">
 <!-- Self-hosted glitch text. Lives at assets/saavibuddy-glitch.svg in this repo. -->
@@ -71,8 +68,6 @@
 - 🧪 Constantly stress-testing RAG architectures and guardrail stacks before they touch a client's data.
 
 ---
-
-### `> ./run_stats.sh`
 
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=YOUR-GITHUB-USERNAME&show_icons=true&theme=chartreuse-dark&bg_color=000000&title_color=39FF14&icon_color=00FF88&text_color=c9d1d9&border_color=1a3a1a&hide_border=false" width="48%"/>
@@ -87,8 +82,6 @@
 
 ---
 
-### `> git log --graph --decorate` (contribution snake)
-
 Drop this as `.github/workflows/snake.yml` in a repo to get an animated snake eating your contribution graph, auto-updated daily:
 
 
@@ -96,8 +89,6 @@ markdown
 ![snake](https://raw.githubusercontent.com/codaswin/codaswin/output/github-contribution-grid-snake-dark.svg)
 
 ---
-
-### `> whoami --connect`
 
 <p align="center">
   <a href="https://saavibuddy.space"><img src="https://img.shields.io/badge/SAAVIBUDDY-000000?style=for-the-badge&logo=vercel&logoColor=39FF14"/></a>

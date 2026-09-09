@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:031f03,100:003300&height=220&section=header&text=ASWIN&fontSize=70&fontColor=39FF14&animation=fadeIn&fontAlignY=35&desc=AI%20Architect%20%7C%20Agentic%20Systems%20Builder%20%7C%20Founder%2C%20SAAVIBUDDY&descAlignY=55&descSize=18&descColor=00FF88" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:062b13,50:0d7a24,100:00ff41&height=220&section=header&text=ASWIN&fontSize=70&fontColor=eafff0&animation=fadeIn&fontAlignY=35&desc=AI%20Architect%20%7C%20Agentic%20Systems%20Builder%20%7C%20Founder%2C%20SAAVIBUDDY&descAlignY=55&descSize=18&descColor=c9ffda" width="100%"/>
 
 <!-- Custom digital-rain banner. Lives at assets/matrix-rain.svg in this repo — GitHub renders it fine as a relative image path. -->
 <img src="assets/matrix-rain.svg" width="100%"/>
@@ -62,7 +62,8 @@
 ### `> ls current_focus/`
 
 <div align="center">
-<img src="https://animatedsvg.vercel.app/generate?lines=SAAVIBUDDY&animation=glitch&color=39FF14,00FFFF&bg_color=000000&font=JetBrains+Mono&size=34&width=420&height=90" width="40%"/>
+<!-- Self-hosted glitch text. Lives at assets/saavibuddy-glitch.svg in this repo. -->
+<img src="assets/saavibuddy-glitch.svg" width="40%"/>
 </div>
 
 - 🧠 **[SAAVIBUDDY](https://saavibuddy.space)** — my enterprise AI stack: infra, live agent demos, and a growing product suite, shipped with React + Vite + Tailwind + FastAPI.
@@ -133,5 +134,5 @@ Then embed it:
   <a href="https://x.com/aswinofcl"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=00FFFF"/></a>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:003300,100:000000&height=120&section=footer&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff41,100:062b13&height=120&section=footer&text=Building%20agents.%20Closing%20deals.&fontSize=20&fontColor=ffffff&fontAlignY=65&animation=fadeIn"/>
 </div>

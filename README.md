@@ -121,7 +121,7 @@ jobs:
 Then embed it:
 
 ```markdown
-![snake](https://raw.githubusercontent.com/YOUR-GITHUB-USERNAME/YOUR-GITHUB-USERNAME/output/github-contribution-grid-snake-dark.svg)
+![snake](https://raw.githubusercontent.com/codaswin/codaswin/output/github-contribution-grid-snake-dark.svg)
 ```
 
 ---

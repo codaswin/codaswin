@@ -2,29 +2,30 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:031f03,100:003300&height=220&section=header&text=ASWIN&fontSize=70&fontColor=39FF14&animation=fadeIn&fontAlignY=35&desc=AI%20Architect%20%7C%20Agentic%20Systems%20Builder%20%7C%20Founder%2C%20SAAVIBUDDY&descAlignY=55&descSize=18&descColor=00FF88" width="100%"/>
 
-<img src="https://animatedsvg.vercel.app/generate?lines=%24%20whoami%3BAswin%20--%20AI%20Architect%20%26%20Agentic%20Systems%20Builder%3BBuilding%20agentic%20AI%20%26%20GaaS%20for%20real%20businesses.%3BTamil%20Nadu%2C%20India%20%F0%9F%87%AE%F0%9F%87%B3&animation=terminal&color=39FF14&bg_color=000000&font=Fira+Code&size=18&width=760&height=160&multiline=true&center=true&duration=4500&pause=1200" width="80%"/>
+<!-- Custom digital-rain banner. Lives at assets/matrix-rain.svg in this repo — GitHub renders it fine as a relative image path. -->
+<img src="assets/matrix-rain.svg" width="100%"/>
 
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Agentic%20AI-000000?style=for-the-badge&logo=robotframework&logoColor=39FF14"/>
-  <img src="https://img.shields.io/badge/CrewAI-000000?style=for-the-badge&logo=data:image/svg+xml;base64,&logoColor=39FF14&labelColor=000000"/>
-  <img src="https://img.shields.io/badge/AutoGen-000000?style=for-the-badge&logoColor=39FF14&labelColor=000000"/>
+  <img src="https://img.shields.io/badge/Agentic%20AI-000000?style=for-the-badge&logoColor=39FF14&labelColor=000000"/>
+  <img src="https://img.shields.io/badge/%E2%96%B2_CrewAI-000000?style=for-the-badge&labelColor=000000&color=39FF14"/>
+  <img src="https://img.shields.io/badge/%E2%97%86_AutoGen-000000?style=for-the-badge&labelColor=000000&color=39FF14"/>
   <img src="https://img.shields.io/badge/n8n-000000?style=for-the-badge&logo=n8n&logoColor=39FF14"/>
   <img src="https://img.shields.io/badge/RAG%20Systems-000000?style=for-the-badge&logoColor=39FF14&labelColor=000000"/>
   <img src="https://img.shields.io/badge/LangSmith-000000?style=for-the-badge&logoColor=39FF14&labelColor=000000"/>
 </p>
 <p align="center">
+  <img src="https://img.shields.io/badge/%CE%BB_Hermes_(Nous_Research)-000000?style=for-the-badge&labelColor=000000&color=00FFFF"/>
   <img src="https://img.shields.io/badge/LoRA%2FQLoRA-000000?style=for-the-badge&logoColor=00FFFF&labelColor=000000"/>
   <img src="https://img.shields.io/badge/vLLM-000000?style=for-the-badge&logoColor=00FFFF&labelColor=000000"/>
   <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=00FFFF"/>
-  <img src="https://img.shields.io/badge/OpenAI-000000?style=for-the-badge&logo=openai&logoColor=00FFFF"/>
+  <img src="https://img.shields.io/badge/OpenAI%20%2F%20Codex-000000?style=for-the-badge&logo=openai&logoColor=00FFFF"/>
   <img src="https://img.shields.io/badge/Gemini-000000?style=for-the-badge&logo=googlegemini&logoColor=00FFFF"/>
+  <img src="https://img.shields.io/badge/Claude%20Code-000000?style=for-the-badge&logo=claude&logoColor=CC9B7A"/>
 </p>
 
-<div align="center">
-<img src="https://animatedsvg.vercel.app/generate?lines=ENTER%20THE%20AGENTIC%20AI%20MATRIX&animation=matrix&color=00FF41&bg_color=000000&font=Fira+Code&size=30&width=650&height=90" width="65%"/>
-</div>
+> Two badges above have no official icon in the badge library yet — CrewAI and AutoGen got a `▲` / `◆` glyph instead of a logo, and Hermes got `λ`, so they stay visually consistent with the terminal theme rather than sitting there as plain text.
 
 ---
 
@@ -46,6 +47,15 @@
 > Vibe coder by method: I own the architecture and the outcome,
   AI tools handle the keystrokes.
 ```
+
+---
+
+### `> ./boot_sequence.sh`
+
+<div align="center">
+<!-- Custom terminal boot animation. Lives at assets/terminal-glitch.svg in this repo. -->
+<img src="assets/terminal-glitch.svg" width="90%"/>
+</div>
 
 ---
 
@@ -119,8 +129,8 @@ Then embed it:
 
 <p align="center">
   <a href="https://saavibuddy.space"><img src="https://img.shields.io/badge/SAAVIBUDDY-000000?style=for-the-badge&logo=vercel&logoColor=39FF14"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00FFFF"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=00FFFF"/></a>
+  <a href="https://linkedin.com/in/aswin-s-1a3026346"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00FFFF"/></a>
+  <a href="https://x.com/aswinofcl"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=00FFFF"/></a>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:003300,100:000000&height=120&section=footer&animation=fadeIn"/>

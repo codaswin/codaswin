@@ -69,10 +69,6 @@
 
 ---
 
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR-GITHUB-USERNAME&show_icons=true&theme=chartreuse-dark&bg_color=000000&title_color=39FF14&icon_color=00FF88&text_color=c9d1d9&border_color=1a3a1a&hide_border=false" width="48%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-GITHUB-USERNAME&layout=compact&theme=chartreuse-dark&bg_color=000000&title_color=39FF14&text_color=c9d1d9&border_color=1a3a1a&hide_border=false" width="38%"/>
-</div>
 
 <div align="center">
 <img src="https://streak-stats.demolab.com?user=YOUR-GITHUB-USERNAME&theme=dark&background=000000&stroke=39FF14&ring=39FF14&fire=00FF88&currStreakLabel=39FF14&border=1a3a1a" width="60%"/>

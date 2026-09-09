@@ -91,7 +91,7 @@
 
 Drop this as `.github/workflows/snake.yml` in a repo to get an animated snake eating your contribution graph, auto-updated daily:
 
-```yaml
+
 name: generate snake
 on:
   schedule:
@@ -116,9 +116,7 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
 
-Then embed it:
 
 markdown
 ![snake](https://raw.githubusercontent.com/codaswin/codaswin/output/github-contribution-grid-snake-dark.svg)

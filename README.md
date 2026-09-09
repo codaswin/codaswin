@@ -25,27 +25,6 @@
   <img src="https://img.shields.io/badge/Claude%20Code-000000?style=for-the-badge&logo=claude&logoColor=CC9B7A"/>
 </p>
 
-> Two badges above have no official icon in the badge library yet — CrewAI and AutoGen got a `▲` / `◆` glyph instead of a logo, and Hermes got `λ`, so they stay visually consistent with the terminal theme rather than sitting there as plain text.
-
----
-
-
-```
-> Runs an AI automation agency shipping agentic systems + GaaS
-  (Generative-AI-as-a-Service) for education & coaching businesses.
-
-> Building SAAVIBUDDY — my own enterprise AI stack & product line.
-
-> Multi-agent orchestration (CrewAI, AutoGen) · Advanced RAG
-  (KG-RAG, Corrective RAG, Self-RAG, Fusion RAG) · LLMOps ·
-  fine-tuning (LoRA/QLoRA) · guardrails (Llama Guard, NeMo).
-
-> Background in digital marketing & high-ticket sales — I don't
-  just build the agent, I know why a business should pay for it.
-
-> Vibe coder by method: I own the architecture and the outcome,
-  AI tools handle the keystrokes.
-```
 
 ---
 

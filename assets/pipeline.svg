@@ -22,7 +22,7 @@
   <circle class="pkt" cx="100" cy="95" r="4"/>
 
   <rect class="box" x="20"  y="50" width="160" height="90" rx="10"/>
-  <text class="num" x="100" y="70">00</text><text class="lbl" x="100" y="96">LEARN</text><text class="cap" x="100" y="118">how you decide + reply</text>
+  <text class="num" x="100" y="70">00</text><text class="lbl" x="100" y="96">LEARN</text><text class="cap" x="100" y="118">5 questions + Diátaxis</text>
 
   <rect class="box" x="210" y="50" width="160" height="90" rx="10"/>
   <text class="num" x="290" y="70">01</text><text class="lbl" x="290" y="96">PLAN</text><text class="cap" x="290" y="118">goal → steps → tools</text>

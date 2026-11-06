@@ -2,42 +2,42 @@
 
 ### Hey, I'm Aswin
 
-Co-founder & CSO of **[Fryhite](https://fryhite.in/)**, an AI agent studio in Chennai, working worldwide.
-
-We build **agentic AI that works like you**: agents that take a goal, work out the steps, use your tools and check their own result.
-They're built around how a founder actually decides, replies, prices and says no.
+I'm co-founder and CSO of [Fryhite](https://fryhite.in/), an AI agent studio in Chennai that works with clients worldwide. I build autonomous AI agents and agentic systems that do my clients' work the way they would do it themselves.
 
 ```txt
-building    → custom agents + multi-agent workflows for founders and agency owners
-method      → plan → act → verify, tested on real work before it takes over
-exploring   → fine-tuning open models (Hermes, LoRA/QLoRA) and serving them with vLLM
-ask me      → agent architecture, RAG, evals, n8n, wiring agents into a CRM
+building   : autonomous agents and multi-agent systems for founders and agency owners
+method     : plan, act, verify, tested on real work before an agent takes over
+exploring  : fine-tuning open models (Hermes, LoRA/QLoRA) and serving them with vLLM
+ask me     : agent architecture, multi-agent handoffs, evals, n8n, connecting agents to a CRM
 ```
 
----
+## Five questions I ask before I build anything
 
-## How I build agents
+1. Where does verification happen?
+2. Which work can run in parallel to save time?
+3. Where does your attention give your agents the most leverage?
+4. What is the bottleneck in your workflow?
+5. Which work reaches your customers or clients?
 
-<img src="assets/pipeline.svg" width="100%" alt="Learn → Plan → Act → Verify → Hand over. You stay at the controls."/>
+The answers show me where an agent has to check its own work, what to split across several agents, where the owner should stay in the loop, what to fix first, and where mistakes would cost the most.
 
-1. **Learn the person before the task.** How they decide, what they'd never sign off on. A template fits nobody.
-2. **Give agents goals, not instructions.** They plan the steps and pick the tools.
-3. **Nothing ships unchecked.** Every result is checked against the goal, then traced and replayable.
-4. **A human stays at the controls.** The agent carries the judgment. It doesn't replace it.
+## How I teach agents the work
 
----
+I write down how a client does their job using the [Diátaxis](https://diataxis.fr/) framework. Diátaxis sorts knowledge into four kinds: tutorials, how-to guides, reference and explanation. An agent that has all four knows the steps of the work, the facts it depends on, and the reasons behind the client's decisions, which is close to what a human expert carries in their head.
+
+## From first call to handover
+
+<img src="assets/pipeline.svg" width="100%" alt="Learn, plan, act, verify, hand over. The client stays at the controls."/>
+
+I start by learning how the client works. The agent then gets a goal, plans the steps, and does the work inside the client's own tools. Each result is checked against the client's standard, and anything that falls short goes back for another pass. Once the client trusts it on real work, the agent takes the job over. The client can step in at any point.
 
 ## Why "Fryhite"
 
-> *Modo de volar*, "A Way of Flying", is an etching by Goya. Men glide through a black sky on wings they built themselves.
-> The wings carry them, and they steer.
+Goya's etching *Modo de volar* ("A Way of Flying") shows men gliding through a black sky on wings they built themselves. The wings carry them, and they steer. I think AI should work the same way. An agent is a good pair of wings, and somebody still has to fly it.
 
-That's how I think AI should work. An agent is a good pair of wings, and somebody still has to fly it.
+The name comes from *Freiheit*, German for freedom. Our philosophy is *Freiheit zur Selbstwirksamkeit*, the freedom to act on your own power. For most business owners, that means getting their Tuesday back.
 
-**Fryhite** comes from *Freiheit*, German for freedom. Our philosophy is *Freiheit zur Selbstwirksamkeit*: the freedom to act on your own power.
-In practice, that means getting your Tuesday back.
-
-→ [Read the full philosophy](https://fryhite.in/philosophy)
+[Read the full philosophy](https://fryhite.in/philosophy)
 
 <!--
 ## Results
@@ -50,19 +50,15 @@ Fill these in with REAL numbers before uncommenting. Don't guess. One true numbe
 | Hours handed back to owners | __ / month |
 -->
 
----
-
 ## Stack
 
 | Layer | Tools |
 |---|---|
-| **Agents & orchestration** | CrewAI · AutoGen · n8n · Claude Code |
-| **Models** | OpenAI · Claude · Gemini · Hermes (Nous Research) · Ollama |
-| **Fine-tuning & serving** | LoRA / QLoRA · vLLM |
-| **Retrieval & evals** | RAG pipelines · vector DBs · LangSmith |
-| **Product** | React · Vite · Tailwind · FastAPI |
-
----
+| Agents and orchestration | CrewAI, AutoGen, n8n, Claude Code |
+| Models | OpenAI, Claude, Gemini, Hermes (Nous Research), Ollama |
+| Fine-tuning and serving | LoRA/QLoRA, vLLM |
+| Tracing and evals | LangSmith |
+| Product | React, Vite, Tailwind, FastAPI |
 
 ## Activity
 
@@ -71,11 +67,9 @@ Fill these in with REAL numbers before uncommenting. Don't guess. One true numbe
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codaswin&layout=compact&hide_border=true&bg_color=000000&title_color=ffffff&text_color=f2f2f2" height="165" alt="Top languages"/>
 </p>
 
----
+## Get in touch
 
-## Let's talk
-
-Building with agents, stuck on RAG quality, or have a task you want an agent to handle? Reach out.
+If you have work you'd like an agent to take over, or you build agents yourself and want to compare notes, email me or find me on LinkedIn.
 
 <p>
   <a href="https://fryhite.in/"><img src="https://img.shields.io/badge/fryhite.in-000000?style=for-the-badge&logo=googlechrome&logoColor=ffffff"/></a>

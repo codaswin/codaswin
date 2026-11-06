@@ -1,60 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Aswin — I build AI agents that run in production">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Aswin, co-founder of Fryhite. I build the wings. You still fly.">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0a0a0a"/>
-      <stop offset="1" stop-color="#161616"/>
-    </linearGradient>
-    <linearGradient id="hot" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#8a8a8a"/>
+      <stop offset="0" stop-color="#000000"/>
+      <stop offset="1" stop-color="#141414"/>
     </linearGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
     </pattern>
     <style>
-      .t  { font-family: 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }
-      .m  { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; }
-      .name { font-size: 112px; font-weight: 900; letter-spacing: -4px; fill: #f2f2f2; }
-      .sub  { font-size: 30px; font-weight: 600; fill: #f2f2f2; }
-      .tag  { font-size: 17px; fill: #9a9a9a; letter-spacing: 1px; }
+      .t  { font-family: 'Space Grotesk', 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }
+      .m  { font-family: 'Fragment Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace; }
+      .name { font-size: 112px; font-weight: 700; letter-spacing: -3px; fill: #ffffff; }
+      .sub  { font-size: 30px; font-weight: 500; fill: #ffffff; }
+      .tag  { font-size: 16px; fill: #9a9a9a; letter-spacing: 1.5px; }
       .dot  { fill: #ffffff; animation: blink 1.4s steps(1) infinite; }
-      .scan { animation: scan 6s linear infinite; }
+      .scan { animation: scan 7s linear infinite; }
       .node { fill: #ffffff; animation: pulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-      .n2 { animation-delay: .4s; } .n3 { animation-delay: .8s; } .n4 { animation-delay: 1.2s; } .n5 { animation-delay: 1.6s; }
+      .n2 { animation-delay: .5s; } .n3 { animation-delay: 1s; }
       .wire { stroke: #bdbdbd; stroke-width: 2; fill: none; stroke-dasharray: 6 8; animation: flow 1.2s linear infinite; }
+      .back { stroke: #5c5c5c; stroke-width: 1.5; fill: none; stroke-dasharray: 3 6; animation: flow 1.6s linear infinite reverse; }
       @keyframes blink { 50% { opacity: 0; } }
       @keyframes scan  { from { transform: translateX(-300px); } to { transform: translateX(1500px); } }
-      @keyframes pulse { 0%,100% { transform: scale(1); opacity: .9; } 50% { transform: scale(1.5); opacity: 1; } }
+      @keyframes pulse { 0%,100% { transform: scale(1); opacity: .85; } 50% { transform: scale(1.45); opacity: 1; } }
       @keyframes flow  { to { stroke-dashoffset: -28; } }
     </style>
   </defs>
 
   <rect width="1200" height="340" fill="url(#bg)"/>
   <rect width="1200" height="340" fill="url(#grid)"/>
-  <rect class="scan" x="0" y="0" width="220" height="340" fill="#ffffff" opacity="0.04"/>
+  <rect class="scan" x="0" y="0" width="220" height="340" fill="#ffffff" opacity="0.035"/>
 
-  <!-- left accent bar -->
-  <rect x="64" y="70" width="10" height="200" fill="url(#hot)"/>
+  <rect x="64" y="70" width="8" height="200" fill="#ffffff"/>
 
-  <text class="m tag" x="100" y="92">// AI ENGINEER · FOUNDER @ FRYHiTE</text>
+  <text class="m tag" x="100" y="92">// CO-FOUNDER &amp; CSO @ FRYHITE</text>
   <text class="t name" x="94" y="200">ASWIN<tspan class="dot">.</tspan></text>
-  <text class="t sub" x="100" y="250">I build AI agents that run in <tspan fill="url(#hot)">production</tspan>.</text>
+  <text class="t sub" x="100" y="250">I build the wings. <tspan fill="#8a8a8a">You still fly.</tspan></text>
 
-  <!-- tiny agent graph on the right -->
-  <g transform="translate(820 70)">
-    <path class="wire" d="M20 100 C 90 100, 90 30, 160 30"/>
-    <path class="wire" d="M20 100 C 90 100, 90 170, 160 170"/>
-    <path class="wire" d="M20 100 L 160 100"/>
-    <path class="wire" d="M160 30 C 230 30, 230 100, 300 100"/>
-    <path class="wire" d="M160 170 C 230 170, 230 100, 300 100"/>
-    <path class="wire" d="M160 100 L 300 100"/>
-    <circle class="node"    cx="20"  cy="100" r="9"/>
-    <circle class="node n2" cx="160" cy="30"  r="7"/>
-    <circle class="node n3" cx="160" cy="100" r="7"/>
-    <circle class="node n4" cx="160" cy="170" r="7"/>
-    <circle class="node n5" cx="300" cy="100" r="9"/>
-    <text class="m" x="0"   y="135" font-size="13" fill="#9a9a9a">input</text>
-    <text class="m" x="128" y="205" font-size="13" fill="#9a9a9a">agents</text>
-    <text class="m" x="270" y="135" font-size="13" fill="#9a9a9a">action</text>
+  <!-- plan → act → verify loop -->
+  <g transform="translate(800 80)">
+    <path class="wire" d="M20 90 C 70 20, 120 20, 170 20"/>
+    <path class="wire" d="M170 20 C 220 20, 270 20, 320 90"/>
+    <path class="back" d="M320 90 C 250 170, 90 170, 20 90"/>
+    <circle class="node"    cx="20"  cy="90" r="9"/>
+    <circle class="node n2" cx="170" cy="20" r="8"/>
+    <circle class="node n3" cx="320" cy="90" r="9"/>
+    <text class="m" x="2"   y="124" font-size="13" fill="#9a9a9a">plan</text>
+    <text class="m" x="157" y="52"  font-size="13" fill="#9a9a9a">act</text>
+    <text class="m" x="290" y="124" font-size="13" fill="#9a9a9a">verify</text>
+    <text class="m" x="98"  y="175" font-size="12" fill="#5c5c5c">you at the controls</text>
   </g>
 </svg>

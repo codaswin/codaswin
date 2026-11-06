@@ -1,42 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" width="1000" height="200" role="img" aria-label="How I build agents: input, router, specialist agents, guardrails, tools and CRM, evals">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 210" width="1000" height="210" role="img" aria-label="How I build agents: learn, plan, act, verify, hand over. You stay at the controls.">
   <defs>
-    <linearGradient id="hot" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#8a8a8a"/>
-    </linearGradient>
     <style>
-      .box  { fill: #121212; stroke: #2e2e2e; stroke-width: 1.5; }
-      .hot  { fill: #121212; stroke: url(#hot); stroke-width: 2; }
-      .lbl  { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 15px; font-weight: 700; fill: #f2f2f2; text-anchor: middle; }
-      .cap  { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 10px; fill: #8a8a8a; text-anchor: middle; }
+      .box  { fill: #111111; stroke: #2e2e2e; stroke-width: 1.5; }
+      .hot  { fill: #111111; stroke: #ffffff; stroke-width: 2; }
+      .num  { font-family: 'Fragment Mono', ui-monospace, Menlo, Consolas, monospace; font-size: 11px; fill: #5c5c5c; text-anchor: middle; }
+      .lbl  { font-family: 'Fragment Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 15px; font-weight: 700; fill: #f2f2f2; text-anchor: middle; }
+      .cap  { font-family: 'Fragment Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 10px; fill: #8a8a8a; text-anchor: middle; }
       .wire { stroke: #ffffff; stroke-width: 2; fill: none; stroke-dasharray: 5 7; animation: flow 1s linear infinite; }
-      .pkt  { fill: #8a8a8a; animation: move 4s linear infinite; }
+      .loop { stroke: #5c5c5c; stroke-width: 1.5; fill: none; stroke-dasharray: 3 6; animation: flow 1.4s linear infinite reverse; }
+      .pkt  { fill: #ffffff; animation: move 5s linear infinite; }
       @keyframes flow { to { stroke-dashoffset: -24; } }
-      @keyframes move { from { transform: translateX(0); opacity: 0; } 5% { opacity: 1; } 95% { opacity: 1; } to { transform: translateX(860px); opacity: 0; } }
+      @keyframes move { from { transform: translateX(0); opacity: 0; } 5% { opacity: 1; } 95% { opacity: 1; } to { transform: translateX(780px); opacity: 0; } }
     </style>
   </defs>
-  <rect width="1000" height="200" rx="14" fill="#0a0a0a"/>
+  <rect width="1000" height="210" rx="14" fill="#000000"/>
 
-  <path class="wire" d="M150 100 H190 M330 100 H370 M510 100 H550 M690 100 H730 M870 100 H880"/>
-  <circle class="pkt" cx="70" cy="100" r="5"/>
+  <path class="wire" d="M180 95 H210 M370 95 H400 M560 95 H590 M750 95 H780"/>
+  <!-- verify loops back to act until it meets your standard -->
+  <path class="loop" d="M670 140 C 670 168, 480 168, 480 140"/>
+  <text class="cap" x="575" y="182">not good enough? back to act</text>
+  <circle class="pkt" cx="100" cy="95" r="4"/>
 
-  <rect class="box" x="20"  y="60" width="130" height="80" rx="10"/>
-  <text class="lbl" x="85"  y="98">INPUT</text><text class="cap" x="85" y="118">chat · form · call</text>
+  <rect class="box" x="20"  y="50" width="160" height="90" rx="10"/>
+  <text class="num" x="100" y="70">00</text><text class="lbl" x="100" y="96">LEARN</text><text class="cap" x="100" y="118">how you decide + reply</text>
 
-  <rect class="box" x="190" y="60" width="140" height="80" rx="10"/>
-  <text class="lbl" x="260" y="98">ROUTER</text><text class="cap" x="260" y="118">intent + context</text>
+  <rect class="box" x="210" y="50" width="160" height="90" rx="10"/>
+  <text class="num" x="290" y="70">01</text><text class="lbl" x="290" y="96">PLAN</text><text class="cap" x="290" y="118">goal → steps → tools</text>
 
-  <rect class="hot" x="370" y="60" width="140" height="80" rx="10"/>
-  <text class="lbl" x="440" y="98">AGENTS</text><text class="cap" x="440" y="118">RAG · tools · memory</text>
+  <rect class="box" x="400" y="50" width="160" height="90" rx="10"/>
+  <text class="num" x="480" y="70">02</text><text class="lbl" x="480" y="96">ACT</text><text class="cap" x="480" y="118">your CRM · docs · APIs</text>
 
-  <rect class="box" x="550" y="60" width="140" height="80" rx="10"/>
-  <text class="lbl" x="620" y="98">GUARDRAILS</text><text class="cap" x="620" y="118">policy · PII · checks</text>
+  <rect class="hot" x="590" y="50" width="160" height="90" rx="10"/>
+  <text class="num" x="670" y="70">03</text><text class="lbl" x="670" y="96">VERIFY</text><text class="cap" x="670" y="118">checked vs your standard</text>
 
-  <rect class="box" x="730" y="60" width="140" height="80" rx="10"/>
-  <text class="lbl" x="800" y="98">ACTION</text><text class="cap" x="800" y="118">CRM · email · APIs</text>
+  <rect class="box" x="780" y="50" width="200" height="90" rx="10"/>
+  <text class="num" x="880" y="70">04</text><text class="lbl" x="880" y="96">HAND OVER</text><text class="cap" x="880" y="118">runs beside you → takes over</text>
 
-  <rect class="box" x="880" y="60" width="100" height="80" rx="10"/>
-  <text class="lbl" x="930" y="98">EVALS</text><text class="cap" x="930" y="118">LangSmith</text>
-
-  <text class="cap" x="500" y="175" fill="#5c5c5c">every run traced · every answer checked before it reaches a user</text>
+  <text class="cap" x="500" y="202" fill="#5c5c5c">you stay at the controls the whole way</text>
 </svg>

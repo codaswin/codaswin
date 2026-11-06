@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Aswin — I build AI agents that run in production">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0b0f"/>
+      <stop offset="1" stop-color="#16110d"/>
+    </linearGradient>
+    <linearGradient id="hot" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff5f1f"/>
+      <stop offset="1" stop-color="#ffb020"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <style>
+      .t  { font-family: 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }
+      .m  { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; }
+      .name { font-size: 112px; font-weight: 900; letter-spacing: -4px; fill: #f5f1ea; }
+      .sub  { font-size: 30px; font-weight: 600; fill: #f5f1ea; }
+      .tag  { font-size: 17px; fill: #a39b90; letter-spacing: 1px; }
+      .dot  { fill: #ff5f1f; animation: blink 1.4s steps(1) infinite; }
+      .scan { animation: scan 6s linear infinite; }
+      .node { fill: #ff5f1f; animation: pulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .n2 { animation-delay: .4s; } .n3 { animation-delay: .8s; } .n4 { animation-delay: 1.2s; } .n5 { animation-delay: 1.6s; }
+      .wire { stroke: #ff7a1f; stroke-width: 2; fill: none; stroke-dasharray: 6 8; animation: flow 1.2s linear infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      @keyframes scan  { from { transform: translateX(-300px); } to { transform: translateX(1500px); } }
+      @keyframes pulse { 0%,100% { transform: scale(1); opacity: .9; } 50% { transform: scale(1.5); opacity: 1; } }
+      @keyframes flow  { to { stroke-dashoffset: -28; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#bg)"/>
+  <rect width="1200" height="340" fill="url(#grid)"/>
+  <rect class="scan" x="0" y="0" width="220" height="340" fill="#ff5f1f" opacity="0.04"/>
+
+  <!-- left accent bar -->
+  <rect x="64" y="70" width="10" height="200" fill="url(#hot)"/>
+
+  <text class="m tag" x="100" y="92">// AI ENGINEER · FOUNDER @ SAAVIBUDDY</text>
+  <text class="t name" x="94" y="200">ASWIN<tspan class="dot">.</tspan></text>
+  <text class="t sub" x="100" y="250">I build AI agents that run in <tspan fill="url(#hot)">production</tspan>.</text>
+
+  <!-- tiny agent graph on the right -->
+  <g transform="translate(820 70)">
+    <path class="wire" d="M20 100 C 90 100, 90 30, 160 30"/>
+    <path class="wire" d="M20 100 C 90 100, 90 170, 160 170"/>
+    <path class="wire" d="M20 100 L 160 100"/>
+    <path class="wire" d="M160 30 C 230 30, 230 100, 300 100"/>
+    <path class="wire" d="M160 170 C 230 170, 230 100, 300 100"/>
+    <path class="wire" d="M160 100 L 300 100"/>
+    <circle class="node"    cx="20"  cy="100" r="9"/>
+    <circle class="node n2" cx="160" cy="30"  r="7"/>
+    <circle class="node n3" cx="160" cy="100" r="7"/>
+    <circle class="node n4" cx="160" cy="170" r="7"/>
+    <circle class="node n5" cx="300" cy="100" r="9"/>
+    <text class="m" x="0"   y="135" font-size="13" fill="#a39b90">input</text>
+    <text class="m" x="128" y="205" font-size="13" fill="#a39b90">agents</text>
+    <text class="m" x="270" y="135" font-size="13" fill="#a39b90">action</text>
+  </g>
+</svg>

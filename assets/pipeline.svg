@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" width="1000" height="200" role="img" aria-label="How I build agents: input, router, specialist agents, guardrails, tools and CRM, evals">
+  <defs>
+    <linearGradient id="hot" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff5f1f"/>
+      <stop offset="1" stop-color="#ffb020"/>
+    </linearGradient>
+    <style>
+      .box  { fill: #121216; stroke: #2a2a31; stroke-width: 1.5; }
+      .hot  { fill: #121216; stroke: url(#hot); stroke-width: 2; }
+      .lbl  { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 15px; font-weight: 700; fill: #f5f1ea; text-anchor: middle; }
+      .cap  { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; font-size: 10px; fill: #8d857a; text-anchor: middle; }
+      .wire { stroke: #ff5f1f; stroke-width: 2; fill: none; stroke-dasharray: 5 7; animation: flow 1s linear infinite; }
+      .pkt  { fill: #ffb020; animation: move 4s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -24; } }
+      @keyframes move { from { transform: translateX(0); opacity: 0; } 5% { opacity: 1; } 95% { opacity: 1; } to { transform: translateX(860px); opacity: 0; } }
+    </style>
+  </defs>
+  <rect width="1000" height="200" rx="14" fill="#0b0b0f"/>
+
+  <path class="wire" d="M150 100 H190 M330 100 H370 M510 100 H550 M690 100 H730 M870 100 H880"/>
+  <circle class="pkt" cx="70" cy="100" r="5"/>
+
+  <rect class="box" x="20"  y="60" width="130" height="80" rx="10"/>
+  <text class="lbl" x="85"  y="98">INPUT</text><text class="cap" x="85" y="118">chat · form · call</text>
+
+  <rect class="box" x="190" y="60" width="140" height="80" rx="10"/>
+  <text class="lbl" x="260" y="98">ROUTER</text><text class="cap" x="260" y="118">intent + context</text>
+
+  <rect class="hot" x="370" y="60" width="140" height="80" rx="10"/>
+  <text class="lbl" x="440" y="98">AGENTS</text><text class="cap" x="440" y="118">RAG · tools · memory</text>
+
+  <rect class="box" x="550" y="60" width="140" height="80" rx="10"/>
+  <text class="lbl" x="620" y="98">GUARDRAILS</text><text class="cap" x="620" y="118">policy · PII · checks</text>
+
+  <rect class="box" x="730" y="60" width="140" height="80" rx="10"/>
+  <text class="lbl" x="800" y="98">ACTION</text><text class="cap" x="800" y="118">CRM · email · APIs</text>
+
+  <rect class="box" x="880" y="60" width="100" height="80" rx="10"/>
+  <text class="lbl" x="930" y="98">EVALS</text><text class="cap" x="930" y="118">LangSmith</text>
+
+  <text class="cap" x="500" y="175" fill="#5f594f">every run traced · every answer checked before it reaches a user</text>
+</svg>

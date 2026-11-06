@@ -1,71 +1,70 @@
-<div align="center">
+<img src="assets/banner.svg" width="100%" alt="Aswin — I build AI agents that run in production"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:062b13,50:0d7a24,100:00ff41&height=220&section=header&text=ASWIN&fontSize=70&fontColor=eafff0&animation=fadeIn&fontAlignY=35&desc=AI%20Architect%20%7C%20Agentic%20Systems%20Builder%20%7C%20Founder%2C%20SAAVIBUDDY&descAlignY=55&descSize=18&descColor=c9ffda" width="100%"/>
+### Hey, I'm Aswin 👋
 
-<!-- Custom digital-rain banner. Lives at assets/matrix-rain.svg in this repo — GitHub renders it fine as a relative image path. -->
-<img src="assets/matrix-rain.svg" width="100%"/>
+I build **agentic AI systems**: multi-agent workflows, RAG pipelines, and the guardrails around them that make them safe to ship.
+I run **[SAAVIBUDDY](https://saavibuddy.space)**, where these systems run every day for coaching and education businesses.
 
-</div>
+```txt
+currently   → building the SAAVIBUDDY agent suite (React · Vite · Tailwind · FastAPI)
+exploring   → fine-tuning open models (Hermes, LoRA/QLoRA) and serving them with vLLM
+ask me      → agent architecture, RAG evals, n8n automations, CRM-integrated AI
+```
+
+---
+
+## 🔧 How I build agents
+
+<img src="assets/pipeline.svg" width="100%" alt="Input → Router → Agents → Guardrails → Action → Evals"/>
+
+Every system I ship follows the same rules:
+
+1. **Route before you reason.** Pick the right agent first. Don't make one giant prompt do everything.
+2. **Ground every answer.** RAG with citations. No source means no claim.
+3. **Guardrails go in before the first user sees it,** not after the first incident.
+4. **Trace everything.** If I can't replay a run in LangSmith, it isn't production-ready.
+
+<!--
+## 📈 Results
+Fill these in with REAL numbers before uncommenting. Don't guess. One true number beats five vague ones.
+
+| What | Result |
+|---|---|
+| Client businesses running SAAVIBUDDY agents | __ |
+| Conversations / tasks handled by agents | __ / month |
+| Hours of manual work saved for clients | __ / month |
+| Lead response time | from __ to __ |
+-->
+
+---
+
+## 🧰 Stack
+
+| Layer | Tools |
+|---|---|
+| **Agents & orchestration** | CrewAI · AutoGen · n8n · Claude Code |
+| **Models** | OpenAI · Claude · Gemini · Hermes (Nous Research) · Ollama |
+| **Fine-tuning & serving** | LoRA / QLoRA · vLLM |
+| **Retrieval & evals** | RAG pipelines · vector DBs · LangSmith |
+| **Product** | React · Vite · Tailwind · FastAPI |
+
+---
+
+## 📊 Activity
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Agentic%20AI-000000?style=for-the-badge&logoColor=39FF14&labelColor=000000"/>
-  <img src="https://img.shields.io/badge/%E2%96%B2_CrewAI-000000?style=for-the-badge&labelColor=000000&color=39FF14"/>
-  <img src="https://img.shields.io/badge/%E2%97%86_AutoGen-000000?style=for-the-badge&labelColor=000000&color=39FF14"/>
-  <img src="https://img.shields.io/badge/n8n-000000?style=for-the-badge&logo=n8n&logoColor=39FF14"/>
-  <img src="https://img.shields.io/badge/RAG%20Systems-000000?style=for-the-badge&logoColor=39FF14&labelColor=000000"/>
-  <img src="https://img.shields.io/badge/LangSmith-000000?style=for-the-badge&logoColor=39FF14&labelColor=000000"/>
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/%CE%BB_Hermes_(Nous_Research)-000000?style=for-the-badge&labelColor=000000&color=00FFFF"/>
-  <img src="https://img.shields.io/badge/LoRA%2FQLoRA-000000?style=for-the-badge&logoColor=00FFFF&labelColor=000000"/>
-  <img src="https://img.shields.io/badge/vLLM-000000?style=for-the-badge&logoColor=00FFFF&labelColor=000000"/>
-  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=00FFFF"/>
-  <img src="https://img.shields.io/badge/OpenAI%20%2F%20Codex-000000?style=for-the-badge&logo=openai&logoColor=00FFFF"/>
-  <img src="https://img.shields.io/badge/Gemini-000000?style=for-the-badge&logo=googlegemini&logoColor=00FFFF"/>
-  <img src="https://img.shields.io/badge/Claude%20Code-000000?style=for-the-badge&logo=claude&logoColor=CC9B7A"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=codaswin&show_icons=true&hide_border=true&bg_color=0b0b0f&title_color=ff5f1f&icon_color=ffb020&text_color=f5f1ea&hide_rank=true" height="165" alt="GitHub stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codaswin&layout=compact&hide_border=true&bg_color=0b0b0f&title_color=ff5f1f&text_color=f5f1ea" height="165" alt="Top languages"/>
 </p>
 
-
 ---
 
+## 🤝 Let's talk
 
-<div align="center">
-<!-- Custom terminal boot animation. Lives at assets/terminal-glitch.svg in this repo. -->
-<img src="assets/terminal-glitch.svg" width="90%"/>
-</div>
+Building with agents, stuck on RAG quality, or want to collaborate on open-source tooling? Reach out.
 
----
-
-
-<div align="center">
-<!-- Self-hosted glitch text. Lives at assets/saavibuddy-glitch.svg in this repo. -->
-<img src="assets/saavibuddy-glitch.svg" width="40%"/>
-</div>
-
-- 🧠 **[SAAVIBUDDY](https://saavibuddy.space)** — my enterprise AI stack: infra, live agent demos, and a growing product suite, shipped with React + Vite + Tailwind + FastAPI.
-- 🤖 Production agentic workflows for coaching & education clients — CRM-integrated AI workforces, not just chatbots.
-- 🧪 Constantly stress-testing RAG architectures and guardrail stacks before they touch a client's data.
-
----
-
-
-<div align="center">
-<img src="https://streak-stats.demolab.com?user=codaswin&theme=dark&background=000000&stroke=39FF14&ring=39FF14&fire=00FF88&currStreakLabel=39FF14&border=1a3a1a" width="60%"/>
-</div>
-
----
-
-
-
-![snake](https://raw.githubusercontent.com/codaswin/codaswin/output/github-contribution-grid-snake-dark.svg)
-
----
-
-<p align="center">
-  <a href="https://saavibuddy.space"><img src="https://img.shields.io/badge/SAAVIBUDDY-000000?style=for-the-badge&logo=vercel&logoColor=39FF14"/></a>
-  <a href="https://linkedin.com/in/aswin-s-1a3026346"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00FFFF"/></a>
-  <a href="https://x.com/aswinofcl"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=00FFFF"/></a>
+<p>
+  <a href="https://saavibuddy.space"><img src="https://img.shields.io/badge/saavibuddy.space-0b0b0f?style=for-the-badge&logo=vercel&logoColor=ff5f1f"/></a>
+  <a href="https://linkedin.com/in/aswin-s-1a3026346"><img src="https://img.shields.io/badge/LinkedIn-0b0b0f?style=for-the-badge&logo=linkedin&logoColor=ff5f1f"/></a>
+  <a href="https://x.com/aswinofcl"><img src="https://img.shields.io/badge/@aswinofcl-0b0b0f?style=for-the-badge&logo=x&logoColor=ff5f1f"/></a>
 </p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff41,100:062b13&height=120&section=footer&text=Building%20agents.%20Closing%20deals.&fontSize=20&fontColor=ffffff&fontAlignY=65&animation=fadeIn"/>
-</div>

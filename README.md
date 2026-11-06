@@ -1,19 +1,19 @@
 <img src="assets/banner.svg" width="100%" alt="Aswin — I build AI agents that run in production"/>
 
-### Hey, I'm Aswin 👋
+### Hey, I'm Aswin
 
 I build **agentic AI systems**: multi-agent workflows, RAG pipelines, and the guardrails around them that make them safe to ship.
-I run **[SAAVIBUDDY](https://saavibuddy.space)**, where these systems run every day for coaching and education businesses.
+I run **[FRYHiTE](https://fryhite.in/)**, an AI agency where I design and ship these systems for clients.
 
 ```txt
-currently   → building the SAAVIBUDDY agent suite (React · Vite · Tailwind · FastAPI)
+currently   → building AI agents for clients at FRYHiTE
 exploring   → fine-tuning open models (Hermes, LoRA/QLoRA) and serving them with vLLM
 ask me      → agent architecture, RAG evals, n8n automations, CRM-integrated AI
 ```
 
 ---
 
-## 🔧 How I build agents
+## How I build agents
 
 <img src="assets/pipeline.svg" width="100%" alt="Input → Router → Agents → Guardrails → Action → Evals"/>
 
@@ -25,12 +25,12 @@ Every system I ship follows the same rules:
 4. **Trace everything.** If I can't replay a run in LangSmith, it isn't production-ready.
 
 <!--
-## 📈 Results
+## Results
 Fill these in with REAL numbers before uncommenting. Don't guess. One true number beats five vague ones.
 
 | What | Result |
 |---|---|
-| Client businesses running SAAVIBUDDY agents | __ |
+| Client businesses running FRYHiTE agents | __ |
 | Conversations / tasks handled by agents | __ / month |
 | Hours of manual work saved for clients | __ / month |
 | Lead response time | from __ to __ |
@@ -38,7 +38,7 @@ Fill these in with REAL numbers before uncommenting. Don't guess. One true numbe
 
 ---
 
-## 🧰 Stack
+## Stack
 
 | Layer | Tools |
 |---|---|
@@ -50,21 +50,21 @@ Fill these in with REAL numbers before uncommenting. Don't guess. One true numbe
 
 ---
 
-## 📊 Activity
+## Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=codaswin&show_icons=true&hide_border=true&bg_color=0b0b0f&title_color=ff5f1f&icon_color=ffb020&text_color=f5f1ea&hide_rank=true" height="165" alt="GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codaswin&layout=compact&hide_border=true&bg_color=0b0b0f&title_color=ff5f1f&text_color=f5f1ea" height="165" alt="Top languages"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=codaswin&show_icons=true&hide_border=true&bg_color=0a0a0a&title_color=ffffff&icon_color=8a8a8a&text_color=f2f2f2&hide_rank=true" height="165" alt="GitHub stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codaswin&layout=compact&hide_border=true&bg_color=0a0a0a&title_color=ffffff&text_color=f2f2f2" height="165" alt="Top languages"/>
 </p>
 
 ---
 
-## 🤝 Let's talk
+## Let's talk
 
 Building with agents, stuck on RAG quality, or want to collaborate on open-source tooling? Reach out.
 
 <p>
-  <a href="https://saavibuddy.space"><img src="https://img.shields.io/badge/saavibuddy.space-0b0b0f?style=for-the-badge&logo=vercel&logoColor=ff5f1f"/></a>
-  <a href="https://linkedin.com/in/aswin-s-1a3026346"><img src="https://img.shields.io/badge/LinkedIn-0b0b0f?style=for-the-badge&logo=linkedin&logoColor=ff5f1f"/></a>
-  <a href="https://x.com/aswinofcl"><img src="https://img.shields.io/badge/@aswinofcl-0b0b0f?style=for-the-badge&logo=x&logoColor=ff5f1f"/></a>
+  <a href="https://fryhite.in/"><img src="https://img.shields.io/badge/fryhite.in-0a0a0a?style=for-the-badge&logo=googlechrome&logoColor=ffffff"/></a>
+  <a href="https://linkedin.com/in/aswin-s-1a3026346"><img src="https://img.shields.io/badge/LinkedIn-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=ffffff"/></a>
+  <a href="https://x.com/aswinofcl"><img src="https://img.shields.io/badge/@aswinofcl-0a0a0a?style=for-the-badge&logo=x&logoColor=ffffff"/></a>
 </p>
